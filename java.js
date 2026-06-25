@@ -3,6 +3,9 @@ let b= 20;
 let c= a+b;
 console.log(c);
 
-let name=('arif')
-console.log (name);
+
+let name='md'
+console.log(name);
+ name='arif'
+console.log(name);
 
