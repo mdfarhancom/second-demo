@@ -1,11 +1,14 @@
-let a=10;
-let b= 20;
-let c= a+b;
-console.log(c);
+function add(){
+    let a=parseInt(document.getElementById("number1").value);
+    let b=parseInt(document.getElementById("number2").value);
+    let c=a+b;
+    document.getElementById("demo").innerHTML=c;
+}
+function sub(){
+    let a=parseInt(document.getElementById("number1").value);
+    let b=parseInt(document.getElementById("number2").value);
+    let c=a-b;
+    document.getElementById("demo").innerHTML=c;
+}
 
-
-let name='md'
-console.log(name);
- name='arif'
-console.log(name);
 
